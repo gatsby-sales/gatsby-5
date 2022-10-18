@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-5",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-5",
+  "author": "Chris LaRocque",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^5.0.0-alpha-v5.d20221012t101120.57",
+    "react": "^0.0.0-experimental-9cdf8a99e-20221018",
+    "react-dom": "^0.0.0-experimental-9cdf8a99e-20221018"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.3"
+  }
+}
